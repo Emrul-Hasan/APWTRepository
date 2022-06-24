@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<h1>Our Teams Members</h1>
+<h1 style=" text-align: center; color: blue;">Our Teams Members</h1>
 
 
 <ul>

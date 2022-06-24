@@ -19,7 +19,7 @@ class PagesController extends Controller
     }
 
     public function teams(){
-        $teams=array("Mr.X", "Mr.Y", "Mr.Z");
+        $teams=array("Mahmudul Hasan Joy", "Litton Das", "Mehidy Hasan","Khaled Ahmed");
         return view('teams')
         ->with('teams', $teams);
     }
