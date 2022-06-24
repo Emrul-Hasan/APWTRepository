@@ -1,11 +1,11 @@
 @extends('layouts.app')
 @section('content')
 
-<h1>Product List</h1>
+<h1 style=" text-align: center; color: blue;">Product List</h1>
 
 
 <ul>
-@foreach($emon as $n)
+@foreach($products as $n)
     <li>{{$n}}</li>
 @endforeach
 </ul>

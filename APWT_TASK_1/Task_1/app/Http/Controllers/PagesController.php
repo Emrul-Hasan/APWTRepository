@@ -11,9 +11,9 @@ class PagesController extends Controller
     }
 
     public function products(){
-        $oishi=array("Bain Syrup", "Xfin","emrul", "Bactrocin","Xymet","Gastrocon-R","Gavisol");
+        $products=array("The Routledge History of Literature in English.", "King Lear- William Shakespeare.","The Tempest- William Shakespeare.", "Canonization- John Donne.","Death be not proud- John Donne.");
           return view('products')
-         ->with('emon', $oishi);;
+         ->with('products', $products);;
         
         //return $products;
     }
